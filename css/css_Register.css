@@ -1,0 +1,15 @@
+.text{
+  font-size: 10;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.ontop{
+  float: left;
+}
+.container {
+    padding: 100px;
+    background-color: red;
+}
