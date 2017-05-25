@@ -55,10 +55,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#singUp">SingUp</a>
+                        <a class="page-scroll" data-toggle="modal" data-target="#myReg" href="#singUp">SingUp</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#login">login</a>
+                        <a class="page-scroll" data-toggle="modal" data-target="#myModal" href="#login">login</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">join Trip</a>
@@ -74,13 +74,13 @@
             <div class="intro-text">
                 <div class="intro-lead-in">let's go to earth starting a journey</div>
                 <a href="#singUp" class="page-scroll btn btn-xl" data-toggle="modal" data-target="#myReg">SING UP</a>
-		        <a href="#login" class="page-scroll btn btn-xl"data-toggle="modal" data-target="#myModal">LOG IN</a>
+                <a href="#login" class="page-scroll btn btn-xl"data-toggle="modal" data-target="#myModal">LOG IN</a>
             </div>
         </div>
     </header>
     <!-- Menu 2 -->
     <nav id="main2" class="container">
-	<div class="container">
+    <div class="container">
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -95,27 +95,35 @@
                         <a class="page-scroll" href="#Recommend">Recommend</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#Hotels">Hotels</a>
+                        <a class="page-scroll" href="www.agoda.com">Hotels</a>
                     </li>
                 </ul>
         </div>
     </nav>
 
+
+ 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+   
     <div class="container">
+    
+    <a id="sh" class="bg-light">
+    <div class="container">
+
     <div class="row">
         <div class="col-sm-2">
 
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dolorropdown">Ended Trip
-            <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li><a role="menuitem" href="#">Ended Trip</a></li>
-                <li><a role="menuitem" href="#">Start Trip</a></li>
-                <li><a  role="menuitem" href="#">JavaScript</a></li>
-              </ul>
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Ended Trip
+                    <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Ended Trip</a></li>
+                        <li><a href="#">Start Trip</a></li>
+                        <li><a href="#">Forest Trip</a></li>
+                      </ul>
+
 
             </div>
+            
             <div class="col-sm-2 ">
 
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Family Trip
@@ -141,14 +149,26 @@
                     </div>
                 </div>
         </div>
-     <div class="container">
+       
+     </div>
+
+        </a>
+        </div>
+
+ <section id="portfolio" class="bg-light">
+
+       <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading"></h2>
 
                 </div>
             </div>
+
             <div class="row">
+
+            
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -159,8 +179,8 @@
                         <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>ปางอุ๋ง สื่อรัก</h4>
+                        <p class="text-muted">miew lalita</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -173,8 +193,8 @@
                         <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>เชียงดาวสกาวใจ</h4>
+                        <p class="text-muted">Nita camal</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -187,8 +207,8 @@
                         <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>ไปปายกัน </h4>
+                        <p class="text-muted">i am kate</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -201,8 +221,8 @@
                         <img src="img/portfolio/golden.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>กิ่วแม่ปาน ใครๆก็ไป</h4>
+                        <p class="text-muted">natpig</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -215,8 +235,8 @@
                         <img src="img/portfolio/escape.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>เขาตะเกียบ เสียบทุกราย</h4>
+                        <p class="text-muted"> minor kaya</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -229,13 +249,15 @@
                         <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>กินเที่ยว นั้งเรือข้ามไปท่ามหาราช</h4>
+                        <p class="text-muted"> korkoyy </p>
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
+
+  
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
@@ -299,7 +321,7 @@
             </div> -->
         </div>
     </section>
-	<footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -327,8 +349,8 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2>ปางอุ๋ง สื่อรัก</h2>
+                                <p class="item-intro text-muted">Name trip owner : miew lalita</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <p>
@@ -491,102 +513,131 @@
         </div>
     </div>
 
-	<!-- Modal Login -->
+    <!-- Modal Login -->
 <div id="myModal" class="modal fade" role="dialog">
-	<div class="modal-dialog">
+    <div class="modal-dialog">
 
     <!-- Modal content-->
      <div class="modal-dialog">
 
-	 <div class="loginmodal-container">
-					<h1>Login to Your Account</h1><br>
-				  <form>
-					<input type="text" name="userID" placeholder="Username">
-					<input type="password" name="userPassword" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
-				  </form>
+     <div class="loginmodal-container">
+                    <h1>Login to Your Account</h1><br>
+                  <form>
+                    <input type="text" name="userID" placeholder="Username">
+                    <input type="password" name="userPassword" placeholder="Password">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                  </form>
 
-				 <!-- <div class="login-help">
-					<a href="#">Register</a> - <a href="#">Forgot Password</a>
-				 </div-->
-				 </div>
+                 <!-- <div class="login-help">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                 </div-->
+                 </div>
 
-	</div>
+    </div>
 
   </div>
 </div>
 
-	<!-- Modal Register -->
+    <!-- Modal Register -->
 <div id="myReg" class="modal fade" role="dialog">
-	<div class="modal-dialog">
+    <div class="modal-dialog">
 
     <!-- Modal content-->
      <div class="modal-dialog">
 
-	 <div class="registermodal-container ">
-					<h1>Register</h1><br>
-          <form>
+     <div class="registermodal-container ">
+
+                    <h1>Register</h1><br>
+           <form class="form-horizontal" role="form" action = "localhost" methode ="post" >
             <label class="topicFont" >Account Details</label>
             <div class="clearfix">
               <label>Email *</label>
-              <input type="text" placeholder="Email" name="email" required>
+              <input type="text" id="email" placeholder="Email" name="email" required>
               <label>Username *</label>
-              <input type="text" placeholder="Username" name="userName" required>
+              <input type="text" id="userName"  placeholder="Username" name="userName" required>
             </div>
 
             <div class="clearfix">
               <label>Password *</label>
-              <input  type="password" placeholder="Password" name="psw" required>
+              <input  type="password"   id="psw"  placeholder="Password" name="psw" required>
               <label>Confirm Password *</label>
-              <input type="password" placeholder="Password" name="conPsw" required>
+              <input type="password"  id="conPsw"  placeholder="Password" name="conPsw" required>
             </div>
 
             <label  class="topicFont">Personal Details</label>
             <div>
               <label>Name *</label>
-              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" id="name"  placeholder="Name" name="name" required>
             </div>
             <div>
               <label>Last Name *</label>
-              <input type="text" placeholder="Last Name" name="lastName" required>
+              <input type="text" id="lastName"  placeholder="Last Name" name="lastName" required>
             </div>
             <div>
               <label>Phone *</label>
-              <input type="tel" placeholder="Phone" name="phone" required maxlength="10">
+              <input type="tel"  id="phone"  placeholder="Phone" name="phone" required maxlength="10">
             </div>
             <div>
               <label>Address *</label>
-              <input type="text" placeholder="Address" name="addr" required>
+              <input type="text"  id="addr" placeholder="Address" name="addr" required>
             </div>
             <div>
               <label>City *</label>
-              <input type="text" placeholder="City" name="city" required>
+              <input type="text"   id="city"  placeholder="City" name="city" required>
             </div>
 
             <label  class="topicFont">Furture Information</label>
             <div>Gender *
               <lable class = "radio-inline">
-                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio"    id="male"  name="gender" value="male" checked> Male
               </label>
               <lable class = "radio-inline">
-                <input type="radio" name="gender" value="female"> Female
+                <input type="radio"  id="female"  name="gender" value="female"> Female
               <label>
             </div>
             <div>Birth Dath *
               <lable>
-                <input type="date" name="dof">
+                <input type="date" id="dof"  name="dof">
               </label>
             </div>
             <input type="checkbox" name="agree" value="agree">* I accept the Terms and Conditions<br>
             <input type="submit" name="submitReg" class="login loginmodal-submit" value="submit">
           </form>
 
-				 <!-- <div class="login-help">
-					<a href="#">Register</a> - <a href="#">Forgot Password</a>
-				 </div-->
-				 </div>
+                        <script>
+                    function insert() {
+                        var xmlhttp = new XMLHttpRequest();
+                        var url = "/Users/korkoyy/Documents/ปีสามเทอมสอง/Software eng/Project/gonow V2/insert.php";
+                        var data = new FormData();
 
-	</div>
+                        data.append('email',document.getElementById("email").value);
+                        data.append('userName',document.getElementById("userName").value);
+                        data.append('psw',document.getElementById("psw").value);
+                       // data.append('conPsw',document.getElementById("conPsw").value);
+                        data.append('name',document.getElementById("name").value);
+                        data.append('lastName',document.getElementById("lastName").value);
+                        data.append('phone',document.getElementById("phone").value);
+                        data.append('addr',document.getElementById("addr").value);
+                        data.append('city',document.getElementById("city").value);
+                       
+
+                        xmlhttp.onreadystatechange=function() {
+                          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                              loadPapers();
+                          }
+                        }
+                        xmlhttp.open("POST", url, true);
+                        xmlhttp.send(data);
+
+                    }
+                    </script>
+
+                 <!-- <div class="login-help">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                 </div-->
+                 </div>
+
+    </div>
 
   </div>
 </div>
